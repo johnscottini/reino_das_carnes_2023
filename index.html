@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Reino das Carnes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+  <!--link da font awesome(repositório de ícones e animações)-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+  <!--link do js-->
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+  <header id="header">
+    <h1><img src="/images/logo.png" alt="Logo do Delícias da Carne" onclick="voltarAoInicio()" title="Logo da loja"
+        class="logo">
+    </h1>
+
+    <nav>
+      <ul>
+        <li><a href="#cortesExoticos" title="Cortes exóticos">Cortes exóticos</a></li>
+        <li><a href="#carnesNobres" title="CarnesNobres">Cortes nobres</a></li>
+        <li><a href="#frutosDoMar" title="Frutos do mar">Frutos do mar</a></li>
+        <li><a href="#quemSomos" title="Quem Somos">Quem Somos</a></li>
+        <li><a href="#contato" title="Contato">Contato</a></li>
+        <li><a href="#localizacao" title="Localização">Localização</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="cortesExoticos">
+      <div class="container">
+
+        <h2 class="title">Cortes Exóticos </h2>
+        <p class="sub-title">Possuímos os melhores cortes premium que existem no mercado hoje!</p>
+        <div class="products-container">
+
+          <div class="product" data-name="p-1">
+            <img src="/images/carnesExoticas/picanha_premium.png" alt="picanha premium">
+            <h3>picanha premium</h3>
+            <div class="price">R$80,00/kg</div>
+          </div>
+
+          <div class="product" data-name="p-2">
+            <img src="/images/carnesExoticas/chorizo_5+.png" alt="chorico 5+">
+            <h3>chorizo 5+</h3>
+            <div class="price">R$183,20/kg</div>
+          </div>
+
+          <div class="product" data-name="p-3">
+            <img src="/images/carnesExoticas/t_bone.png" alt="t-bone">
+            <h3>t-bone</h3>
+            <div class="price">R$150,00/kg</div>
+          </div>
+
+          <div class="product" data-name="p-4">
+            <img src="/images/carnesExoticas/ancho_wagyu.png" alt="ancho de wagyu">
+            <h3>ancho de wagyu</h3>
+            <div class="price">R$970,00/kg</div>
+          </div>
+
+          <div class="product" data-name="p-5">
+            <img src="/images/carnesExoticas/chorizo_de_wagyu.png" alt="chorizo de wagyu">
+            <h3>chorizo de wagyu</h3>
+            <div class="price">R$800,00/kg</div>
+          </div>
+
+          <div class="product" data-name="p-6">
+            <img src="/images/carnesExoticas/paleta_de_cordeiro.png" alt="paleta de cordeiro">
+            <h3>paleta de cordeiro</h3>
+            <div class="price">R$770,00/kg</div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+      <!--pop up de compra-->
+      <div class="products-preview">
+
+        <div class="preview" data-target="p-1">
+          <i class="fas fa-times"></i>
+          <img src="/images/carnesExoticas/picanha_premium.png" alt="picanha premium">
+          <h3>picanha premium</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          </div>
+          <p>A melhor picanha que você vai comer na vida.</p>
+          <div class="price">R$80,00/kg</div>
+          <div class="buttons">
+            <a href="#contato" class="buy">contate-nos</a>
+          </div>
+        </div>
+
+        <div class="preview" data-target="p-2">
+          <i class="fas fa-times"></i>
+          <img src="/images/carnesExoticas/chorizo_5+.png" alt="chorizo 5+">
+          <h3>chorizo 5+</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>( 1500 )</span>
+          </div>
+          <p>Esse chorizo é espetacular!</p>
+          <div class="price">R$183,20/Kg</div>
+          <div class="buttons">
+            <a href="#contato" class="buy">contate-nos</a>
+          </div>
+        </div>
+
+        <div class="preview" data-target="p-3">
+          <i class="fas fa-times"></i>
+          <img src="images/carnesExoticas/t_bone.png" alt="t-bone de cordeiro">
+          <h3>T-bone de cordeiro</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 120 )</span>
+          </div>
+          <p>Proveniente de animais criados nas pastagens da Patagônia Chilena.</p>
+          <div class="price">R$150,00/kg</div>
+          <div class="buttons">
+            <a href="#contato" class="buy">contate-nos</a>
+          </div>
+        </div>
+
+        <div class="preview" data-target="p-4">
+          <i class="fas fa-times"></i>
+          <img src="/images/carnesExoticas/ancho_wagyu.png" alt="ancho de wagyu">
+          <h3>ancho de wagyu</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>( 25000 )</span>
+          </div>
+          <p>As avaliações dizem tudo sobre essa carne. É incrível.</p>
+          <div class="price">R$970,00/Kg</div>
+          <div class="buttons">
+            <a href="#contato" class="buy">contate-nos</a>
+          </div>
+        </div>
+
+        <div class="preview" data-target="p-5">
+          <i class="fas fa-times"></i>
+          <img src="/images/carnesExoticas/chorizo_de_wagyu.png" alt="chorizo de wagyu">
+          <h3>chorizo de wagyu</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>( 2500 )</span>
+          </div>
+          <p>Uma experiência única!</p>
+          <div class="price">R$800,00/kg</div>
+          <div class="buttons">
+            <a href="#contato" class="buy">contate-nos</a>
+          </div>
+        </div>
+
+        <div class="preview" data-target="p-6">
+          <i class="fas fa-times"></i>
+          <img src="images/carnesExoticas/paleta_de_cordeiro.png" alt="paleta de cordeiro">
+          <h3>paleta de cordeiro</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 258 )</span>
+          </div>
+          <p>A paleta de cordeiro é um evento.</p>
+          <div class="price">R$770,00/Kg</div>
+          <div class="buttons">
+            <a href="#contato" class="buy">contate-nos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--demais sections de produtos (sem a função de hover)  -->
+
+    <!--Section das carnes nobres-->
+
+    <section id="carnesNobres">
+      <div class="container">
+        <h2 class="title">Cortes nobres</h2>
+        <p class="sub-title">Nossos cortes nobres também são capazes de trazer o melhor do mundo carnívoro para sua
+          mesa!</p>
+        <div class="products-secondContainer">
+
+          <div class="product">
+            <img src="/images/carnesNobres/bifeFileDuplo.png" alt="bife de filé duplo">
+            <h3>Bife de filé duplo</h3>
+            <div class="price">R$58,00/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/carnesNobres/bifeAncho.png" alt="bife ancho">
+            <h3>Bife ancho</h3>
+            <div class="price">R$73,00/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/carnesNobres/denver.png" alt="denver">
+            <h3>Denver</h3>
+            <div class="price">R$90,00/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/carnesNobres/fraldaRed.png" alt="fralda red">
+            <h3>Fralda red</h3>
+            <div class="price">R$110,00/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/carnesNobres/ribeyeCenter.png" alt="ribeye center">
+            <h3>Ribeye center</h3>
+            <div class="price">R$47,00/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/carnesNobres/shortRib.png" alt="short rib">
+            <h3>Short rib</h3>
+            <div class="price">R$67,49/kg</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Section dos frutos do mar-->
+    <section id="frutosDoMar">
+      <div class="container">
+        <h2 class="title">Frutos do mar</h2>
+        <p class="sub-title">Aqui no reino das carnes também temos espaço para frutos do mar de altíssima qualidade!</p>
+        <div class="products-secondContainer">
+
+          <div class="product">
+            <img src="/images/frutosMar/polvo.png" alt="tentáculos de polvo">
+            <h3>Tentáculos de polvo</h3>
+            <div class="price">R$98,00/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/frutosMar/filePescadinho.png" alt="filé de pescadinho">
+            <h3>Filé de pescadinho</h3>
+            <div class="price">R$67,50/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/frutosMar/fileTruta.png" alt="filé de truta">
+            <h3>Filé de truta</h3>
+            <div class="price">R$98,00/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/frutosMar/lomboSalmao.png" alt="lombo de salmão">
+            <h3>Lombo de salmão</h3>
+            <div class="price">R$198,00/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/frutosMar/siri.png" alt="siri">
+            <h3>Siri</h3>
+            <div class="price">R$250,00/kg</div>
+          </div>
+
+          <div class="product">
+            <img src="/images/frutosMar/lomboPirarucu.png" alt="filé de pirarucu">
+            <h3>Filé de pirarucu</h3>
+            <div class="price">R$220,00/kg</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quemSomos">
+      <div class="container">
+        <h2 class="title">Quem somos</h2>
+        <div>
+          <p>O Reino das Carnes se preocupa muito com a procedência das carnes vendidas, todo o cuidado dado ao animal é
+            importante, desde alimentação até vacinação adequada e de ótima qualidade.</p>
+        </div>
+        <div>
+          <p>Nós somos uma loja de carnes que tem orgulho em servir a nossa comunidade há mais de <strong>40
+              anos</strong>, nascemos de um sonho de prover para as pessoas o que há de melhor no ramo de carnes para
+            assim assegurar que todos tenham acesso à deliciosos cortes.
+        </div>
+        <div>
+          <p>Com uma vasta experiência no ramo de carnes, nós selecionamos cuidadosamente as melhores carnes nobres,
+            carnes exóticas e frutos do mar para oferecer aos nossos clientes uma experiência gastronômica única e
+            inesquecível, já que:</p>
+        </div>
+
+        <h2 id="logoBody">O melhor restaurante é a NOSSA CASA!</h2>
+
+
+        <div id="apresentacao">
+          <img src="/images/logo.png" title="Logo do reino das carnes" alt="Logo do Reino das Carnes"
+            onclick="voltarAoInicio()">
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+
+      <div class="container">
+        <h2 class="title">Contato</h2>
+
+
+        <div class="contatoContainer">
+
+          <div class="innerContainer formulario">
+            <h3>Entre em contato conosco:</h3>
+            <form class="contactUs">
+              <div class="input">
+                <label for="name" class="text">Nome:</label>
+                <input type="text" placeholder="Digite seu nome completo..." name="name" id="name" class="input">
+              </div>
+              <div class="input">
+                <label for="email" class="text">Email:</label>
+                <input type="text" id="email" placeholder="Digite seu email..." name="email" class="input">
+              </div>
+              <div class="input">
+                <label for="phone" class="text">Telefone:</label>
+                <input type="text" id="phone" maxlength="11" pattern="\d{1,11}" placeholder="Digite seu telefone..."
+                  name="phone" class="input">
+              </div>
+              <div class="radio-buttons">
+                <h4>Preferência:</h4>
+                <div class="radioContainer">
+                  <div class="radio-button"> </div> <span>Carnes Exóticas</span>
+                </div>
+                <div class="radioContainer">
+                  <div class="radio-button"> </div> <span>Carnes Tradicionais</span>
+                </div>
+                <div class="radioContainer">
+                  <div class="radio-button"> </div> <span>Ambas</span>
+                </div>
+              </div>
+              <div class="dropDownMenu">
+                <h4>Tipo de carne favorita:</h4>
+                <div class="dropdown-toggle downArrow" id="dropdownMenu">Selecione</div>
+                <div class="dropDown">
+                  <div class="listDropDown">
+                    <div class="item" id="item-1">Bovina</div>
+                    <div class="item" id="item-2">Suína</div>
+                    <div class="item" id="item-3">Aves</div>
+                    <div class="item" id="item-4">Frutos do Mar</div>
+                    <div class="item" id="item-5">Outras</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="containerDiv">
+                <h4>Receber comunicações por:</h4>
+
+                <div class="checkboxContainer">
+                  <div class="checkbox"> </div> <span>Todos os meios</span>
+                  <div class="checkbox"> </div> <span>E-mail</span>
+                  <div class="checkbox"></div> <span>SMS</span>
+                </div>
+              </div>
+              <div class="input messageInput">
+                <label for="message" class="text">Mensagem:</label>
+                <textarea placeholder="Digite sua mensagem..." name="message" id="message" class="input"></textarea>
+              </div>
+              <input type="button" value="Enviar" class="submitForm">
+            </form>
+          </div>
+          <div class="innerContainer">
+            <h3>Horário de funcionamento:</h3>
+            <div class="timeTable">
+              <ul>
+                <li>Segunda à Sexta: 7:00 às 19:00</li>
+                <li>Sábados: 7:00 às 15:00</li>
+              </ul>
+            </div>
+            <div class="errorMsg"></div>
+          </div>
+          <div class="innerContainer" id="contatoContainer">
+            <h3>Contato:</h3>
+            <ul>
+              <li>Central de atendimento<span>(021) 2527-7125</span>
+                <span>(021) 9 7213-0412</span>
+              </li>
+              <li>WhatsApp<span>(021) 9
+                  9908-4435</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="localizacao">
+      <div class="container">
+        <h2 class="title">Localização</h2>
+        <p class="sub-title">Estamos localizados em Botafogo, rua dos voluntários da pátria, na cidade maravilhosa.</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.9014313401667!2d-43.19367838571989!3d-22.953856958451517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe690be38c9%3A0x99efacdf663c5ef!2sR.%20Volunt%C3%A1rios%20da%20P%C3%A1tria%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022270-000!5e0!3m2!1spt-BR!2sbr!4v1683478516793!5m2!1spt-BR!2sbr"
+          allowfullscreen="" loading="lazy" title="Localização da loja"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <ul>
+
+        <li><a href="https://www.linkedin.com/in/jonathan-scottini/" target="_blank"
+            title="Link para o linkedin">Linkedin</a></li>
+        <li><a href="https://twitter.com/John_scottini" target="_blank" title="Link para o twitter">Twitter</a></li>
+        <li>
+          All rights reserved 2023 - Jonathan Scottini
+        </li>
+        <li><a href="mailto:jonathanoliveirascottini8@gmail.com" title="Link para o email">Email</a></li>
+        <li><a href="https://github.com/johnscottini" target="_blank" title="link para o github">Github</a></li>
+        <li>
+          <p>👋</p>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
