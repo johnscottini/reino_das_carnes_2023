@@ -1,4 +1,5 @@
 # reino_das_carnes_2023
+Project view: https://trabalhopb.jonathande49.repl.co/
 This project is a final project of a college subject, the main goal of this project was to practice HTML5, CSS3 and JavaScript integration, the use of events, CSS selectors, forms and JavaScript validations by creating a website of a hypothetical steakhouse. 
 The checkboxes, radio buttons and dropdown were designed from scratch.
 
